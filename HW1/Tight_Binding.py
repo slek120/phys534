@@ -148,14 +148,15 @@ class hexagonal_lattice:
         }
 
     def Create_irr_klist(self):
-        # x range (Gamma to X)
+        # Initial list of k: range=[0,2*pi)
         kxlist=linspace(0,2*pi,self.nk+1)[:-1]
         self.klist=[] # List of (kx,ky) coordinates
         self.wklist=[] # List of multiplicity of corresponding coordinate
         for i,kx in enumerate(kxlist):
             for j,ky in enumerate(kxlist):
+                # Fractional coordinate
                 k=[(kx+ky)/sqrt(3),kx-ky]
-                # Inside Gamma X K triangle
+                # Only add to list if inside Gamma-X-K-Gamma triangle
                 if k[0]<=2*pi/sqrt(3) and 0 <= k[1] and k[0] <= 3*k[1]:
                     self.klist.append([(kx+ky)/sqrt(3),kx-ky])
                     # Gamma point
