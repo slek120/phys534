@@ -154,30 +154,28 @@ class hexagonal_lattice:
         self.wklist=[] # List of multiplicity of corresponding coordinate
         for i,kx in enumerate(kxlist):
             for j,ky in enumerate(kxlist):
-                # Fractional coordinate
-                k=[(kx+ky)/sqrt(3),kx-ky]
                 # Only add to list if inside Gamma-X-K-Gamma triangle
-                if k[0]<=2*pi/sqrt(3) and 0 <= k[1] and k[0] <= 3*k[1]:
+                if j<=i and i<=2*j and i+j<=nk:
                     self.klist.append([(kx+ky)/sqrt(3),kx-ky])
                     # Gamma point
-                    if k==[0,0]:
+                    if i==0 and j==0:
                         self.wklist.append(1.)
                     # Along X-K
-                    elif k[0]==2*pi/sqrt(3):
+                    elif i+j==nk:
                         # K point
-                        if k[0] == 3*k[1]:
+                        if i==2*j:
                             self.wklist.append(3.)
                         # X point 
-                        elif 0 == k[1]:
+                        elif i==j:
                             self.wklist.append(3.)
                         # Along X-K
                         else:
                             self.wklist.append(6.)
                     # Along Gamma-K
-                    elif k[0] == 3*k[1]:
+                    elif i==2*j:
                         self.wklist.append(6.)
                     # Along Gamma-X
-                    elif 0 == k[1]:
+                    elif i==j:
                         self.wklist.append(6.)
                     # Inside Gamma X K triangle
                     else:
