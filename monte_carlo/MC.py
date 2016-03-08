@@ -1,3 +1,8 @@
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+from mpi4py import MPI
 from scipy import *
 import time
 
@@ -8,7 +13,6 @@ def ComputeMCSteps(IS, NStep, NWarm, NMeas):
   MC_E = IS.E
   MC_M = IS.M
   L = IS.L
-  L2 = IS.L2
   Navg = 0.
   Eavg = 0.
   Mavg = 0.
@@ -17,7 +21,7 @@ def ComputeMCSteps(IS, NStep, NWarm, NMeas):
 
   for istep in range(NStep):
     # Pick random site (i,j)
-    Site = int(rand()*L2)
+    Site = int(rand()*L*L)
     i,j = Site//L, Site%L
     # Calculate S_i.S_j for n.n.
     SI = IS.spins[i,j]
@@ -38,11 +42,11 @@ def ComputeMCSteps(IS, NStep, NWarm, NMeas):
       Mavg += MC_M
       E2avg += MC_E**2
       M2avg += MC_M**2
-  E = Eavg/Navg/L2
-  M = Mavg/Navg/L2
-  Cv = (E2avg/Navg-(Eavg/Navg)**2)/L2/IS.T**2
-  chi = (M2avg/Navg-(Mavg/Navg)**2)/L2/IS.T
-  return E, M, Cv, chi
+  E = Eavg/Navg/IS.L2
+  M = Mavg/Navg/IS.L2
+  E2 = E2avg/Navg/IS.L2
+  M2 = M2avg/Navg/IS.L2
+  return E, M, E2, M2
 
 class Ising:
   def __init__(self,L):
@@ -67,7 +71,7 @@ class Ising:
   def ComputeM(self):
     self.M = sum(self.spins)
 
-  def UpdateFP(self, T):
+  def UpdateT(self, T):
     self.FP = zeros(9, dtype=float)
     self.FP[0] = 1.
     self.FP[2] = 1.
@@ -78,24 +82,58 @@ class Ising:
 
 
 def main():
+  comm = MPI.COMM_WORLD
+  size = comm.Get_size()
+  rank = comm.Get_rank()
+
   L = 100
   Nstep,Nwarm,Nmeasure = (1000000, 1000, 100)
-
   IS = Ising(L)
-  IS.ComputeE()
-  IS.ComputeM()
-  print('E: %f, M: %f'%(IS.E, IS.M))
 
-  IS.UpdateFP(4.)
-  for i in range(10):
-    print('E: %f, M: %f, Cv: %f, chi: %f'%ComputeMCSteps(IS,Nstep,Nwarm,Nmeasure))
+  Tlist = linspace(4., 0.5, 60)
+  Elist = []
+  Mlist = []
+  Cvlist = []
+  chilist = []
 
+  t1 = time.time()
+  for T in Tlist:
+    t2 = time.time()
+    IS.UpdateT(T)
+    IS.ComputeE()
+    IS.ComputeM()
+    E,M,E2,M2 = ComputeMCSteps(IS,Nstep,Nwarm,Nmeasure)
+    E = comm.allreduce(E, op=MPI.SUM)
+    M = comm.allreduce(abs(M), op=MPI.SUM)
+    E2 = comm.allreduce(abs(E2), op=MPI.SUM)
+    M2 = comm.allreduce(abs(M2), op=MPI.SUM)
+    Eavg = E/size
+    Mavg = M/size
+    E2avg= E2/size
+    M2avg= M2/size
+    Cv = (E2avg-Eavg**2)/T**2
+    chi= (M2avg-Mavg**2)/T
 
-  # for temp in [0.01,0.1,1.,10.]:
-  #   start = time.time()
-  #   IS.UpdateFP(temp)
-  #   print('E: %f, M: %f, Cv: %f, chi: %f'%ComputeMCSteps(IS,Nstep,Nwarm,Nmeasure))
-  #   print(elapsed(start))
+    Elist.append(Eavg)
+    Mlist.append(Mavg)
+    Cvlist.append(Cv)
+    chilist.append(chi)
+    print('T: %f, E: %f, M: %f, Cv: %f, chi: %f'%(T, Eavg, Mavg, Cv, chi))
+    print(elapsed(t2))
+  print(elapsed(t1))
+
+  if rank==0:
+    plt.plot(Tlist, Elist, label='$E(T)$')
+    plt.plot(Tlist, Mlist, label='$M(T)$')
+    plt.plot(Tlist, Cvlist, label='$C_v(T)$')
+    plt.xlabel('$T$')
+    plt.legend(loc='best')
+    plt.savefig('EMCV.eps')
+    plt.close()
+    plt.plot(Tlist, chilist, label='$\chi(T)$')
+    plt.xlabel('T')
+    plt.legend(loc='best')
+    plt.savefig('chi.eps')
 
 if __name__ == '__main__':
   main()
