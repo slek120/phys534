@@ -1,0 +1,9 @@
+#Input file for continuous time quantum Monte Carlo
+nom     80       # number of Matsubara frequency points to sample
+beta    100.0    # Inverse temperature
+M       5000000         # Number of Monte Carlo steps
+warmup  250000    # Warmup
+U       3.0     # Coulomb repulsion (F0)
+mu      1.5   # Chemical potential
+Delta   Delta.inp       # Input bath function hybridization
+cix     impurity.cix      # Input file with atomic state
