@@ -1,0 +1,898 @@
+Hello World! I am 0 of 16Hello World! I am 1 of 16
+Hello World! I am 2 of 16
+Hello World! I am 3 of 16
+Hello World! I am 4 of 16
+Hello World! I am 5 of 16
+Hello World! I am 6 of 16
+Hello World! I am 7 of 16
+Hello World! I am 8 of 16
+Hello World! I am 9 of 16
+Hello World! I am 10 of 16
+Hello World! I am 11 of 16
+Hello World! I am 12 of 16
+Hello World! I am 13 of 16
+Hello World! I am 14 of 16
+Hello World! I am 15 of 16
+
+Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+Input parameters are:
+fDelta=DeltaHL.inp
+fcix=impurity.cix
+mu=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=1.5
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=
+beta=100
+U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0U=3
+M=5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+5000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-065000000
+Ntau=200
+Nmax=2048
+nom=80
+nomD=200
+nomv=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+nomb=50
+nOm=0
+PChangeOrder=0.9
+PMove=0
+tsample=30
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+
+warmup=250000
+CleanUpdate=1000000
+minM=1e-10
+minD=1e-10
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+Ncorrect=-1
+aom=3
+som=3
+PreciseP=1
+sderiv=0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+0.02
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+AllRead=0
+LazyTrace=1
+MinTraceRatio1e-06
+fastFilesystem=0
+
+fastFilesystem=0
+Number of operators needed 0
+iseed=0 in rank 0
+iseed=10 in rank 1
+iseed=20 in rank 2
+iseed=30 in rank 3
+iseed=40 in rank 4
+iseed=50 in rank 5
+iseed=60 in rank 6
+iseed=70 in rank 7
+iseed=80 in rank 8
+iseed=90 in rank 9
+iseed=100 in rank 10
+iseed=110 in rank 11
+iseed=120 in rank 12
+iseed=130 in rank 13
+iseed=140 in rank 14
+iseed=150 in rank 15
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+log(Zatom)=150.693
+  1000000 14    nf=1.001     <Sz>=-0.05843   <s>=1          chiS0=7.509         chiD=0.04205        Epot=0.3768      Ekin=-0.8807    
+  1000000 15    nf=0.9998    <Sz>=-0.2761    <s>=1          chiS0=7.835         chiD=0.04219        Epot=0.374       Ekin=-0.8748    
+  1000000 9     nf=0.9994    <Sz>=0.2633     <s>=1          chiS0=7.438         chiD=0.04321        Epot=0.371       Ekin=-0.8695    
+  1000000 6     nf=1.001     <Sz>=0.2609     <s>=1          chiS0=7.288         chiD=0.04295        Epot=0.375       Ekin=-0.8856    
+  1000000 4     nf=1.002     <Sz>=-0.1697    <s>=1          chiS0=7.191         chiD=0.04427        Epot=0.3771      Ekin=-0.8739    
+  1000000 2     nf=0.9974    <Sz>=0.2723     <s>=1          chiS0=7.648         chiD=0.04222        Epot=0.3709      Ekin=-0.8805    
+  1000000 5     nf=1.002     <Sz>=-0.2731    <s>=1          chiS0=7.662         chiD=0.04325        Epot=0.3791      Ekin=-0.8854    
+  1000000 12    nf=1.003     <Sz>=0.1965     <s>=1          chiS0=7.634         chiD=0.04096        Epot=0.377       Ekin=-0.8713    
+  1000000 10    nf=0.9993    <Sz>=-0.2741    <s>=1          chiS0=7.697         chiD=0.0434         Epot=0.3728      Ekin=-0.8751    
+  1000000 0     nf=0.9997    <Sz>=0.2711     <s>=1          chiS0=7.581         chiD=0.04372        Epot=0.3735      Ekin=-0.8739    
+  1000000 8     nf=0.9992    <Sz>=0.2748     <s>=1          chiS0=7.721         chiD=0.04175        Epot=0.3747      Ekin=-0.8763    
+  1000000 1     nf=1.001     <Sz>=0.2746     <s>=1          chiS0=7.756         chiD=0.04101        Epot=0.3778      Ekin=-0.8834    
+  1000000 13    nf=1         <Sz>=-0.2742    <s>=1          chiS0=7.711         chiD=0.04327        Epot=0.3761      Ekin=-0.878     
+  1000000 7     nf=1         <Sz>=0.2731     <s>=1          chiS0=7.698         chiD=0.04211        Epot=0.3748      Ekin=-0.8777    
+  1000000 11    nf=1         <Sz>=0.2733     <s>=1          chiS0=7.688         chiD=0.044          Epot=0.374       Ekin=-0.8771    
+  1000000 3     nf=0.9993    <Sz>=0.2638     <s>=1          chiS0=7.304         chiD=0.04315        Epot=0.3743      Ekin=-0.8816    
+  1500000 14    nf=1.002     <Sz>=-0.1141    <s>=1          chiS0=7.388         chiD=0.04236        Epot=0.379       Ekin=-0.8847    
+  1500000 6     nf=1         <Sz>=0.2644     <s>=1          chiS0=7.357         chiD=0.04377        Epot=0.3748      Ekin=-0.8822    
+  1500000 15    nf=0.9995    <Sz>=-0.2144    <s>=1          chiS0=7.625         chiD=0.04204        Epot=0.3732      Ekin=-0.8785    
+  1500000 2     nf=0.9981    <Sz>=0.2718     <s>=1          chiS0=7.636         chiD=0.04116        Epot=0.3719      Ekin=-0.8791    
+  1500000 1     nf=1.001     <Sz>=0.2747     <s>=1          chiS0=7.769         chiD=0.04189        Epot=0.3744      Ekin=-0.8742    
+  1500000 5     nf=0.9996    <Sz>=-0.2724    <s>=1          chiS0=7.622         chiD=0.043          Epot=0.3755      Ekin=-0.8817    
+  1500000 9     nf=0.9992    <Sz>=0.2677     <s>=1          chiS0=7.548         chiD=0.04298        Epot=0.3725      Ekin=-0.8741    
+  1500000 12    nf=1.003     <Sz>=0.2279     <s>=1          chiS0=7.698         chiD=0.04198        Epot=0.3772      Ekin=-0.8723    
+  1500000 4     nf=1.001     <Sz>=-0.2115    <s>=1          chiS0=7.402         chiD=0.04335        Epot=0.3765      Ekin=-0.8792    
+  1500000 8     nf=0.9989    <Sz>=0.2327     <s>=1          chiS0=7.7           chiD=0.0419         Epot=0.3734      Ekin=-0.8763    
+  1500000 0     nf=1         <Sz>=0.163      <s>=1          chiS0=7.547         chiD=0.04363        Epot=0.3761      Ekin=-0.8762    
+  1500000 10    nf=0.9998    <Sz>=-0.2736    <s>=1          chiS0=7.668         chiD=0.04409        Epot=0.3754      Ekin=-0.8786    
+  1500000 13    nf=1         <Sz>=-0.07779   <s>=1          chiS0=7.536         chiD=0.04311        Epot=0.3756      Ekin=-0.8774    
+  1500000 7     nf=0.9996    <Sz>=0.2731     <s>=1          chiS0=7.686         chiD=0.04282        Epot=0.3744      Ekin=-0.8782    
+  1500000 11    nf=1.001     <Sz>=0.1872     <s>=1          chiS0=7.713         chiD=0.04272        Epot=0.3756      Ekin=-0.8753    
+  1500000 3     nf=0.9993    <Sz>=0.2692     <s>=1          chiS0=7.53          chiD=0.04256        Epot=0.3745      Ekin=-0.8798    
+  2000000 14    nf=1.001     <Sz>=-0.09589   <s>=1          chiS0=7.328         chiD=0.04226        Epot=0.3779      Ekin=-0.8853    
+  2000000 15    nf=1         <Sz>=-0.07462   <s>=1          chiS0=7.664         chiD=0.04232        Epot=0.3743      Ekin=-0.8769    
+  2000000 6     nf=0.9995    <Sz>=0.2666     <s>=1          chiS0=7.428         chiD=0.04404        Epot=0.3744      Ekin=-0.8821    
+  2000000 2     nf=0.9988    <Sz>=0.2735     <s>=1          chiS0=7.706         chiD=0.04065        Epot=0.3725      Ekin=-0.8783    
+  2000000 8     nf=0.9999    <Sz>=0.08805    <s>=1          chiS0=7.698         chiD=0.04129        Epot=0.3736      Ekin=-0.8743    
+  2000000 1     nf=1.001     <Sz>=0.1263     <s>=1          chiS0=7.761         chiD=0.04177        Epot=0.3745      Ekin=-0.8738    
+  2000000 9     nf=0.9993    <Sz>=0.2698     <s>=1          chiS0=7.616         chiD=0.0426         Epot=0.3722      Ekin=-0.8733    
+  2000000 5     nf=1         <Sz>=-0.2726    <s>=1          chiS0=7.635         chiD=0.04293        Epot=0.3765      Ekin=-0.8813    
+  2000000 4     nf=1         <Sz>=-0.2284    <s>=1          chiS0=7.444         chiD=0.04252        Epot=0.3758      Ekin=-0.8801    
+  2000000 0     nf=1         <Sz>=0.03893    <s>=1          chiS0=7.581         chiD=0.04264        Epot=0.3755      Ekin=-0.8752    
+  2000000 12    nf=1.002     <Sz>=0.2376     <s>=1          chiS0=7.596         chiD=0.04238        Epot=0.3772      Ekin=-0.8747    
+  2000000 10    nf=0.9998    <Sz>=-0.2717    <s>=1          chiS0=7.592         chiD=0.04352        Epot=0.3757      Ekin=-0.878     
+  2000000 7     nf=0.9993    <Sz>=0.2755     <s>=1          chiS0=7.812         chiD=0.0419         Epot=0.3724      Ekin=-0.8743    
+  2000000 13    nf=0.9998    <Sz>=0.02351    <s>=1          chiS0=7.628         chiD=0.04223        Epot=0.3745      Ekin=-0.8766    
+  2000000 11    nf=1.001     <Sz>=0.1976     <s>=1          chiS0=7.664         chiD=0.04262        Epot=0.3754      Ekin=-0.877     
+  2000000 3     nf=0.9994    <Sz>=0.272      <s>=1          chiS0=7.65          chiD=0.04269        Epot=0.3735      Ekin=-0.8781    
+  2500000 14    nf=1.001     <Sz>=-0.01561   <s>=1          chiS0=7.337         chiD=0.04213        Epot=0.377       Ekin=-0.8828    
+  2500000 15    nf=1.001     <Sz>=0.001654   <s>=1          chiS0=7.627         chiD=0.04262        Epot=0.3756      Ekin=-0.8769    
+  2500000 6     nf=0.9997    <Sz>=0.2689     <s>=1          chiS0=7.521         chiD=0.04364        Epot=0.3743      Ekin=-0.8814    
+  2500000 8     nf=1         <Sz>=0.08909    <s>=1          chiS0=7.621         chiD=0.04169        Epot=0.3737      Ekin=-0.8737    
+  2500000 1     nf=1.001     <Sz>=0.03657    <s>=1          chiS0=7.79          chiD=0.0416         Epot=0.3741      Ekin=-0.8725    
+  2500000 9     nf=0.9994    <Sz>=0.2704     <s>=1          chiS0=7.641         chiD=0.04242        Epot=0.3721      Ekin=-0.8724    
+  2500000 5     nf=1         <Sz>=-0.2724    <s>=1          chiS0=7.635         chiD=0.04301        Epot=0.3764      Ekin=-0.8801    
+  2500000 2     nf=0.999     <Sz>=0.2725     <s>=1          chiS0=7.653         chiD=0.0412         Epot=0.3731      Ekin=-0.8789    
+  2500000 12    nf=1.002     <Sz>=0.2455     <s>=1          chiS0=7.651         chiD=0.04195        Epot=0.3747      Ekin=-0.8726    
+  2500000 4     nf=1.001     <Sz>=-0.238     <s>=1          chiS0=7.477         chiD=0.04302        Epot=0.3757      Ekin=-0.8799    
+  2500000 0     nf=0.9996    <Sz>=-0.03149   <s>=1          chiS0=7.648         chiD=0.04322        Epot=0.3743      Ekin=-0.8761    
+  2500000 10    nf=0.9997    <Sz>=-0.2715    <s>=1          chiS0=7.577         chiD=0.04319        Epot=0.3755      Ekin=-0.8792    
+  2500000 13    nf=0.9993    <Sz>=0.07823    <s>=1          chiS0=7.593         chiD=0.04269        Epot=0.3746      Ekin=-0.8782    
+  2500000 7     nf=0.9989    <Sz>=0.2738     <s>=1          chiS0=7.717         chiD=0.0416         Epot=0.373       Ekin=-0.8792    
+  2500000 11    nf=1         <Sz>=0.2153     <s>=1          chiS0=7.721         chiD=0.04287        Epot=0.3743      Ekin=-0.8749    
+  2500000 3     nf=0.9999    <Sz>=0.2722     <s>=1          chiS0=7.652         chiD=0.04237        Epot=0.3745      Ekin=-0.877     
+  3000000 14    nf=1.001     <Sz>=0.03767    <s>=1          chiS0=7.44          chiD=0.0423         Epot=0.3764      Ekin=-0.8802    
+  3000000 15    nf=1.001     <Sz>=0.05177    <s>=1          chiS0=7.676         chiD=0.0421         Epot=0.3752      Ekin=-0.876     
+  3000000 8     nf=1.001     <Sz>=0.1219     <s>=1          chiS0=7.603         chiD=0.04182        Epot=0.3745      Ekin=-0.8731    
+  3000000 6     nf=0.9996    <Sz>=0.2686     <s>=1          chiS0=7.496         chiD=0.04341        Epot=0.3746      Ekin=-0.8824    
+  3000000 1     nf=1.001     <Sz>=-0.01858   <s>=1          chiS0=7.707         chiD=0.04172        Epot=0.3742      Ekin=-0.8742    
+  3000000 9     nf=0.9998    <Sz>=0.2709     <s>=1          chiS0=7.65          chiD=0.04227        Epot=0.3729      Ekin=-0.8732    
+  3000000 5     nf=0.9999    <Sz>=-0.2722    <s>=1          chiS0=7.622         chiD=0.0424         Epot=0.376       Ekin=-0.8818    
+  3000000 2     nf=0.9991    <Sz>=0.2716     <s>=1          chiS0=7.605         chiD=0.04143        Epot=0.374       Ekin=-0.8808    
+  3000000 4     nf=1         <Sz>=-0.225     <s>=1          chiS0=7.536         chiD=0.0427         Epot=0.3751      Ekin=-0.8793    
+  3000000 12    nf=1.001     <Sz>=0.2509     <s>=1          chiS0=7.673         chiD=0.04226        Epot=0.3748      Ekin=-0.8722    
+  3000000 0     nf=0.9993    <Sz>=-0.07569   <s>=1          chiS0=7.663         chiD=0.04275        Epot=0.3743      Ekin=-0.8768    
+  3000000 10    nf=0.9993    <Sz>=-0.272     <s>=1          chiS0=7.6           chiD=0.04362        Epot=0.375       Ekin=-0.8791    
+  3000000 13    nf=0.9991    <Sz>=0.04367    <s>=1          chiS0=7.597         chiD=0.04251        Epot=0.3742      Ekin=-0.879     
+  3000000 11    nf=1         <Sz>=0.2264     <s>=1          chiS0=7.741         chiD=0.04239        Epot=0.3749      Ekin=-0.8755    
+  3000000 7     nf=0.9993    <Sz>=0.2744     <s>=1          chiS0=7.741         chiD=0.04179        Epot=0.3737      Ekin=-0.8795    
+  3000000 3     nf=1         <Sz>=0.2736     <s>=1          chiS0=7.716         chiD=0.04201        Epot=0.3748      Ekin=-0.8758    
+  3500000 14    nf=1         <Sz>=0.07468    <s>=1          chiS0=7.514         chiD=0.04251        Epot=0.3753      Ekin=-0.8794    
+  3500000 15    nf=1.001     <Sz>=0.086      <s>=1          chiS0=7.687         chiD=0.04221        Epot=0.3756      Ekin=-0.8761    
+  3500000 6     nf=0.9994    <Sz>=0.269      <s>=1          chiS0=7.518         chiD=0.04325        Epot=0.3737      Ekin=-0.8804    
+  3500000 8     nf=1         <Sz>=0.1459     <s>=1          chiS0=7.648         chiD=0.04218        Epot=0.3738      Ekin=-0.8733    
+  3500000 9     nf=1         <Sz>=0.2704     <s>=1          chiS0=7.62          chiD=0.04223        Epot=0.3732      Ekin=-0.8736    
+  3500000 4     nf=1         <Sz>=-0.1473    <s>=1          chiS0=7.614         chiD=0.04266        Epot=0.3734      Ekin=-0.8771    
+  3500000 1     nf=1.001     <Sz>=-0.05035   <s>=1          chiS0=7.687         chiD=0.04182        Epot=0.3744      Ekin=-0.875     
+  3500000 5     nf=1         <Sz>=-0.2724    <s>=1          chiS0=7.621         chiD=0.04217        Epot=0.377       Ekin=-0.8835    
+  3500000 12    nf=1.001     <Sz>=0.2545     <s>=1          chiS0=7.678         chiD=0.04183        Epot=0.3749      Ekin=-0.8723    
+  3500000 2     nf=0.9992    <Sz>=0.2703     <s>=1          chiS0=7.577         chiD=0.04151        Epot=0.3747      Ekin=-0.882     
+  3500000 0     nf=0.9992    <Sz>=-0.1064    <s>=1          chiS0=7.68          chiD=0.04266        Epot=0.3737      Ekin=-0.876     
+  3500000 10    nf=0.9994    <Sz>=-0.2725    <s>=1          chiS0=7.637         chiD=0.04316        Epot=0.3749      Ekin=-0.8779    
+  3500000 13    nf=0.9993    <Sz>=-0.005532   <s>=1          chiS0=7.63          chiD=0.04236        Epot=0.3743      Ekin=-0.8783    
+  3500000 7     nf=0.9995    <Sz>=0.2746     <s>=1          chiS0=7.754         chiD=0.04146        Epot=0.3734      Ekin=-0.8782    
+  3500000 11    nf=0.9999    <Sz>=0.2339     <s>=1          chiS0=7.743         chiD=0.04206        Epot=0.3742      Ekin=-0.8756    
+  3500000 3     nf=0.9999    <Sz>=0.2739     <s>=1          chiS0=7.723         chiD=0.04196        Epot=0.3743      Ekin=-0.8758    
+  4000000 14    nf=0.9999    <Sz>=0.06383    <s>=1          chiS0=7.535         chiD=0.04247        Epot=0.3747      Ekin=-0.8793    
+  4000000 8     nf=1         <Sz>=0.163      <s>=1          chiS0=7.667         chiD=0.04207        Epot=0.3733      Ekin=-0.8719    
+  4000000 6     nf=0.9993    <Sz>=0.2584     <s>=1          chiS0=7.518         chiD=0.04304        Epot=0.3738      Ekin=-0.8801    
+  4000000 15    nf=1.001     <Sz>=0.04629    <s>=1          chiS0=7.687         chiD=0.0421         Epot=0.3753      Ekin=-0.8756    
+  4000000 9     nf=1         <Sz>=0.271      <s>=1          chiS0=7.643         chiD=0.04217        Epot=0.3735      Ekin=-0.8733    
+  4000000 4     nf=1         <Sz>=-0.1377    <s>=1          chiS0=7.62          chiD=0.04272        Epot=0.374       Ekin=-0.877     
+  4000000 1     nf=1.001     <Sz>=-0.007122   <s>=1          chiS0=7.686         chiD=0.04185        Epot=0.3748      Ekin=-0.8755    
+  4000000 5     nf=1         <Sz>=-0.2726    <s>=1          chiS0=7.636         chiD=0.04221        Epot=0.3766      Ekin=-0.8823    
+  4000000 2     nf=0.9996    <Sz>=0.1973     <s>=1          chiS0=7.61          chiD=0.0416         Epot=0.3751      Ekin=-0.881     
+  4000000 0     nf=0.999     <Sz>=-0.1294    <s>=1          chiS0=7.718         chiD=0.04242        Epot=0.3727      Ekin=-0.8746    
+  4000000 12    nf=1.001     <Sz>=0.2574     <s>=1          chiS0=7.693         chiD=0.04145        Epot=0.3753      Ekin=-0.8733    
+  4000000 10    nf=0.9994    <Sz>=-0.2264    <s>=1          chiS0=7.589         chiD=0.04308        Epot=0.3745      Ekin=-0.8769    
+  4000000 13    nf=0.9995    <Sz>=0.001378   <s>=1          chiS0=7.635         chiD=0.04235        Epot=0.3747      Ekin=-0.8777    
+  4000000 7     nf=1         <Sz>=0.2756     <s>=1          chiS0=7.802         chiD=0.04169        Epot=0.3736      Ekin=-0.8773    
+  4000000 3     nf=1         <Sz>=0.2742     <s>=1          chiS0=7.743         chiD=0.04223        Epot=0.3737      Ekin=-0.8744    
+  4000000 11    nf=1         <Sz>=0.2057     <s>=1          chiS0=7.742         chiD=0.0421         Epot=0.3741      Ekin=-0.876     
+  4500000 14    nf=0.9997    <Sz>=0.02356    <s>=1          chiS0=7.583         chiD=0.04225        Epot=0.3737      Ekin=-0.8779    
+  4500000 6     nf=0.9994    <Sz>=0.1953     <s>=1          chiS0=7.566         chiD=0.04301        Epot=0.3738      Ekin=-0.8793    
+  4500000 8     nf=1         <Sz>=0.1756     <s>=1          chiS0=7.658         chiD=0.0423         Epot=0.3734      Ekin=-0.873     
+  4500000 15    nf=1.001     <Sz>=0.008645   <s>=1          chiS0=7.684         chiD=0.04219        Epot=0.376       Ekin=-0.8761    
+  4500000 9     nf=1         <Sz>=0.2713     <s>=1          chiS0=7.649         chiD=0.04189        Epot=0.3737      Ekin=-0.8731    
+  4500000 4     nf=1         <Sz>=-0.1545    <s>=1          chiS0=7.669         chiD=0.04272        Epot=0.3738      Ekin=-0.8764    
+  4500000 1     nf=1.001     <Sz>=0.02531    <s>=1          chiS0=7.669         chiD=0.04189        Epot=0.3749      Ekin=-0.875     
+  4500000 2     nf=0.9997    <Sz>=0.1896     <s>=1          chiS0=7.553         chiD=0.04169        Epot=0.3751      Ekin=-0.8799    
+  4500000 0     nf=0.9992    <Sz>=-0.1228    <s>=1          chiS0=7.719         chiD=0.04251        Epot=0.3728      Ekin=-0.8743    
+  4500000 5     nf=1         <Sz>=-0.272     <s>=1          chiS0=7.602         chiD=0.04202        Epot=0.3772      Ekin=-0.8835    
+  4500000 10    nf=0.9994    <Sz>=-0.2098    <s>=1          chiS0=7.601         chiD=0.04298        Epot=0.3741      Ekin=-0.8767    
+  4500000 12    nf=1.001     <Sz>=0.2115     <s>=1          chiS0=7.632         chiD=0.04165        Epot=0.3751      Ekin=-0.8744    
+  4500000 13    nf=0.9996    <Sz>=0.03337    <s>=1          chiS0=7.638         chiD=0.04231        Epot=0.3748      Ekin=-0.8782    
+  4500000 3     nf=1         <Sz>=0.2743     <s>=1          chiS0=7.741         chiD=0.04206        Epot=0.3741      Ekin=-0.8749    
+  4500000 7     nf=1         <Sz>=0.2228     <s>=1          chiS0=7.775         chiD=0.04205        Epot=0.3743      Ekin=-0.8779    
+  4500000 11    nf=1         <Sz>=0.1492     <s>=1          chiS0=7.743         chiD=0.04185        Epot=0.3739      Ekin=-0.8762    
+  5000000 14    nf=0.9998    <Sz>=-0.007644   <s>=1          chiS0=7.592         chiD=0.0421         Epot=0.3735      Ekin=-0.877     
+14:variation=
+successful=1707313 add/rm=0.3473  mv=0.5775 sign at finish 1
+successfulC[0]=0.458 successfulM[0]=0.08456 
+successfulC[1]=0.4574 successfulM[1]=0.08456 
+  5000000 6     nf=0.9995    <Sz>=0.1461     <s>=1          chiS0=7.574         chiD=0.04322        Epot=0.3738      Ekin=-0.8786    
+6:variation=
+successful=1709134 add/rm=0.3476  mv=0.5796 sign at finish 1
+successfulC[0]=0.4576 successfulM[0]=0.08478 
+successfulC[1]=0.4576 successfulM[1]=0.08478 
+  5000000 8     nf=1         <Sz>=0.1859     <s>=1          chiS0=7.661         chiD=0.04227        Epot=0.374       Ekin=-0.874     
+8:variation=
+successful=1707440 add/rm=0.3473  mv=0.5776 sign at finish 1
+successfulC[0]=0.4581 successfulM[0]=0.08457 
+successfulC[1]=0.4573 successfulM[1]=0.08457 
+  5000000 15    nf=1.001     <Sz>=-0.02087   <s>=1          chiS0=7.672         chiD=0.04232        Epot=0.3758      Ekin=-0.8763    
+15:variation=
+successful=1710537 add/rm=0.3477  mv=0.5831 sign at finish 1
+successfulC[0]=0.457 successfulM[0]=0.08523 
+successfulC[1]=0.4578 successfulM[1]=0.08523 
+  5000000 9     nf=1.001     <Sz>=0.2185     <s>=1          chiS0=7.667         chiD=0.04196        Epot=0.3738      Ekin=-0.8729    
+9:variation=
+successful=1707419 add/rm=0.3473  mv=0.5775 sign at finish 1
+successfulC[0]=0.4579 successfulM[0]=0.08456 
+successfulC[1]=0.4575 successfulM[1]=0.08456 
+  5000000 4     nf=1         <Sz>=-0.1671    <s>=1          chiS0=7.676         chiD=0.04265        Epot=0.374       Ekin=-0.8759    
+4:variation=
+successful=1707426 add/rm=0.3473  mv=0.5789 sign at finish 1
+successfulC[0]=0.4574 successfulM[0]=0.08476 
+successfulC[1]=0.4578 successfulM[1]=0.08476 
+  5000000 1     nf=1.001     <Sz>=0.05149    <s>=1          chiS0=7.673         chiD=0.04203        Epot=0.3747      Ekin=-0.8752    
+1:variation=
+successful=1708510 add/rm=0.3475  mv=0.5785 sign at finish 1
+successfulC[0]=0.4574 successfulM[0]=0.08464 
+successfulC[1]=0.458 successfulM[1]=0.08464 
+  5000000 2     nf=0.9995    <Sz>=0.1987     <s>=1          chiS0=7.579         chiD=0.04183        Epot=0.3749      Ekin=-0.8798    
+2:variation=
+successful=1712576 add/rm=0.3483  mv=0.5808 sign at finish 1
+successfulC[0]=0.458 successfulM[0]=0.08478 
+successfulC[1]=0.4572 successfulM[1]=0.08478 
+  5000000 5     nf=1         <Sz>=-0.2725    <s>=1          chiS0=7.63          chiD=0.04207        Epot=0.3765      Ekin=-0.8822    
+5:variation=
+successful=1710752 add/rm=0.348  mv=0.5789 sign at finish 1
+successfulC[0]=0.4581 successfulM[0]=0.0846 
+successfulC[1]=0.4573 successfulM[1]=0.0846 
+  5000000 0     nf=0.9996    <Sz>=-0.08115   <s>=1          chiS0=7.711         chiD=0.04249        Epot=0.3735      Ekin=-0.8748    
+0:variation=
+  5000000 10    nf=0.9994    <Sz>=-0.1585    <s>=1          chiS0=7.634         chiD=0.04306        Epot=0.3734      Ekin=-0.8755    
+10:variation=
+successful=1709876 add/rm=0.3479  mv=0.5771 sign at finish 1
+successfulC[0]=0.4576 successfulM[0]=0.08437 
+successfulC[1]=0.458 successfulM[1]=0.08437 
+  5000000 12    nf=1.001     <Sz>=0.2118     <s>=1          chiS0=7.642         chiD=0.04178        Epot=0.3747      Ekin=-0.8746    
+12:variation=
+successful=1708607 add/rm=0.3476  mv=0.5776 sign at finish 1
+successfulC[0]=0.4581 successfulM[0]=0.08451 
+successfulC[1]=0.4574 successfulM[1]=0.08451 
+  5000000 13    nf=0.9995    <Sz>=0.03889    <s>=1          chiS0=7.631         chiD=0.04243        Epot=0.3749      Ekin=-0.8785    
+13:variation=
+successful=1708677 add/rm=0.3477  mv=0.5769 sign at finish 1
+successfulC[0]=0.4579 successfulM[0]=0.08441 
+successfulC[1]=0.4577 successfulM[1]=0.08441 
+  5000000 3     nf=1         <Sz>=0.2741     <s>=1          chiS0=7.735         chiD=0.04188        Epot=0.3738      Ekin=-0.8751    
+3:variation=
+successful=1708750 add/rm=0.3476  mv=0.5791 sign at finish 1
+successfulC[0]=0.4569 successfulM[0]=0.08472 
+successfulC[1]=0.4584 successfulM[1]=0.08472 
+  5000000 7     nf=1         <Sz>=0.1713     <s>=1          chiS0=7.735         chiD=0.04223        Epot=0.3749      Ekin=-0.8788    
+7:variation=
+successful=1708329 add/rm=0.3475  mv=0.5786 sign at finish 1
+successfulC[0]=0.4579 successfulM[0]=0.08467 
+successfulC[1]=0.4575 successfulM[1]=0.08467 
+  5000000 11    nf=1         <Sz>=0.1044     <s>=1          chiS0=7.749         chiD=0.04172        Epot=0.3741      Ekin=-0.8763    
+11:variation=
+successful=1707356 add/rm=0.3472  mv=0.5794 sign at finish 1
+successfulC[0]=0.457 successfulM[0]=0.08483 
+successfulC[1]=0.4582 successfulM[1]=0.08483 
