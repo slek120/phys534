@@ -4,7 +4,8 @@
 #PBS -l walltime=3:00:00
 #PBS -j oe
 #PBS -q edu_shared 
-
+#PBS -m abe
+#PBS -M emasco2@uic.edu
 
 module load apps/espresso-5.3.0-intel
 NN=$(cat ${PBS_NODEFILE} | wc -l)

@@ -4,7 +4,8 @@ import subprocess
 def Create_scf(i):
   with open('graphene.scf%d.in'%i, 'w') as f:
     a = 2.4623 + (i-5)*0.01
-    s = "&CONTROL\n\
+    s = "\
+&CONTROL\n\
       calculation = 'scf',\n\
      restart_mode = 'from_scratch',\n\
        pseudo_dir = './',\n\
@@ -46,7 +47,7 @@ if __name__=='__main__':
 
   for i in range(10):
     Create_scf(i)
-    cmd = para_com + ' pw.x -i graphene.scf%d.in > espresso.log 2> espresso.err'%(it)
+    cmd = para_com + ' pw.x -i graphene.scf%d.in > espresso.out 2> espresso.err'%(i)
     subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
-    cmd = 'cp out out.' + str(it)
+    cmd = 'cp espresso.out espresso.out.' + str(i)
     print os.popen(cmd).read()
