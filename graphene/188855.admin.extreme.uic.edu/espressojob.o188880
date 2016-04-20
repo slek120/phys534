@@ -1,0 +1,5 @@
+cp: omitting directory `../188877.admin.extreme.uic.edu'
+cp: omitting directory `../188880.admin.extreme.uic.edu'
+cp: omitting directory `../graphene.save'
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+Job complete

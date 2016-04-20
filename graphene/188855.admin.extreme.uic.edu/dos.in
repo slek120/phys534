@@ -1,0 +1,5 @@
+&DOS
+   outdir='./',
+   prefix='graphene',
+   fildos='graphene.dos',
+/

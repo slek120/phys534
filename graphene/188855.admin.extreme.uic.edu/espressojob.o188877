@@ -1,0 +1,9 @@
+cp: omitting directory `../188877.admin.extreme.uic.edu'
+cp: omitting directory `../graphene.save'
+[mpiexec@compute-0-32.local] HYDU_parse_hostfile (../../utils/args/args.c:535): unable to open host file: NODEFILE
+[mpiexec@compute-0-32.local] machine_file_fn (../../ui/mpich/utils.c:510): error parsing machine file
+[mpiexec@compute-0-32.local] match_arg (../../utils/args/args.c:243): match handler returned error
+[mpiexec@compute-0-32.local] HYDU_parse_array (../../utils/args/args.c:269): argument matching returned error
+[mpiexec@compute-0-32.local] parse_args (../../ui/mpich/utils.c:4498): error parsing input array
+[mpiexec@compute-0-32.local] HYD_uii_mpx_get_parameters (../../ui/mpich/utils.c:4819): unable to parse user arguments
+Job complete

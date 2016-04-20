@@ -1,0 +1,52 @@
+
+     Program BANDS v.5.3.0 (svn rev. 11974) starts on 12Apr2016 at 16:22:54 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    20 processors
+     R & G space division:  proc/nbgrp/npool/nimage =      20
+
+     Reading data from directory:
+     ./graphene.save
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      =  SLA  PW   PBE  PBE ( 1  4  3  4 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+               file C.pbe-rrkjus.UPF: wavefunction(s)  2S 2P renormalized
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          53      18      5                 5769     1108     185
+     Max          54      19      6                 5788     1143     200
+     Sum        1069     361    109               115541    22353    3857
+
+
+     negative rho (up, down):  1.010E-06 0.000E+00
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+     high-symmetry point:  0.6667 0.0000 0.0000   x coordinate   0.6667
+     high-symmetry point:  0.5000 0.2887 0.0000   x coordinate   1.0000
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   1.5774
+
+     Plottable bands written to file graphene.bands.gnu
+     Bands written to file graphene.bands
+
+     BANDS        :     0.68s CPU         0.75s WALL
+
+
+   This run was terminated on:  16:22:55  12Apr2016            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

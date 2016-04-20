@@ -1,0 +1,6 @@
+[mpiexec@login-1.extreme.uic.edu] HYDU_parse_hostfile (../../utils/args/args.c:535): unable to open host file: /var/spool/torque/aux//189509.admin.extreme.uic.edu
+[mpiexec@login-1.extreme.uic.edu] machine_file_fn (../../ui/mpich/utils.c:510): error parsing machine file
+[mpiexec@login-1.extreme.uic.edu] match_arg (../../utils/args/args.c:243): match handler returned error
+[mpiexec@login-1.extreme.uic.edu] HYDU_parse_array (../../utils/args/args.c:269): argument matching returned error
+[mpiexec@login-1.extreme.uic.edu] parse_args (../../ui/mpich/utils.c:4498): error parsing input array
+[mpiexec@login-1.extreme.uic.edu] HYD_uii_mpx_get_parameters (../../ui/mpich/utils.c:4819): unable to parse user arguments
