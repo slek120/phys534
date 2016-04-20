@@ -23,6 +23,6 @@ plt.plot(x0,y0,label=lab)
 plt.xlabel('$a$')
 plt.ylabel('$E$')
 plt.legend(loc='best')
-plt.savefig('total_E.eps')
+plt.savefig('total_E.png')
 
 print(popt)
