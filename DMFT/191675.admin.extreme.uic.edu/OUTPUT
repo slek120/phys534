@@ -1,0 +1,120 @@
+16:42:11	Loop #1	mu=3.00	N=1.00	Etot=-0.1093	Ekin=-1.6093	Epot=1.5000
+16:42:11	Starting CTQMC
+16:43:08	Finish CTQMC	
+16:43:10	Loop #2	mu=3.00	N=1.00	Etot=-0.2863	Ekin=-1.4435	Epot=1.1572
+16:43:10	Starting CTQMC
+16:44:06	Finish CTQMC	
+16:44:09	Loop #3	mu=3.00	N=1.00	Etot=-0.3915	Ekin=-1.3515	Epot=0.9600
+16:44:09	Starting CTQMC
+16:45:03	Finish CTQMC	
+16:45:06	Loop #4	mu=3.00	N=1.00	Etot=-0.4544	Ekin=-1.2977	Epot=0.8434
+16:45:06	Starting CTQMC
+16:45:59	Finish CTQMC	
+16:46:02	Loop #5	mu=3.00	N=1.00	Etot=-0.4918	Ekin=-1.2658	Epot=0.7740
+16:46:02	Starting CTQMC
+16:46:56	Finish CTQMC	
+16:46:58	Loop #6	mu=3.00	N=1.00	Etot=-0.5146	Ekin=-1.2456	Epot=0.7311
+16:46:58	Starting CTQMC
+16:47:51	Finish CTQMC	
+16:47:54	Loop #7	mu=3.00	N=1.00	Etot=-0.5281	Ekin=-1.2326	Epot=0.7045
+16:47:54	Starting CTQMC
+16:48:47	Finish CTQMC	
+16:48:50	Loop #8	mu=3.00	N=1.00	Etot=-0.5362	Ekin=-1.2247	Epot=0.6885
+16:48:50	Starting CTQMC
+16:49:42	Finish CTQMC	
+16:49:45	Loop #9	mu=3.00	N=1.00	Etot=-0.5422	Ekin=-1.2185	Epot=0.6763
+16:49:45	Starting CTQMC
+16:50:38	Finish CTQMC	
+16:50:40	Loop #10	mu=3.00	N=1.00	Etot=-0.5455	Ekin=-1.2153	Epot=0.6698
+16:50:40	Starting CTQMC
+16:51:33	Finish CTQMC	
+16:51:35	Loop #11	mu=3.00	N=1.00	Etot=-0.5479	Ekin=-1.2134	Epot=0.6655
+16:51:35	Starting CTQMC
+16:52:27	Finish CTQMC	
+16:52:30	Loop #12	mu=3.00	N=1.00	Etot=-0.5492	Ekin=-1.2118	Epot=0.6626
+16:52:30	Starting CTQMC
+16:53:22	Finish CTQMC	
+16:53:25	Loop #13	mu=3.00	N=1.00	Etot=-0.5504	Ekin=-1.2110	Epot=0.6605
+16:53:25	Starting CTQMC
+16:54:17	Finish CTQMC	
+16:54:20	Loop #14	mu=3.00	N=1.00	Etot=-0.5511	Ekin=-1.2106	Epot=0.6595
+16:54:20	Starting CTQMC
+16:55:12	Finish CTQMC	
+16:55:15	Loop #15	mu=3.00	N=1.00	Etot=-0.5518	Ekin=-1.2094	Epot=0.6576
+16:55:15	Starting CTQMC
+16:56:07	Finish CTQMC	
+16:56:10	Loop #16	mu=3.00	N=1.00	Etot=-0.5516	Ekin=-1.2097	Epot=0.6581
+16:56:10	Starting CTQMC
+16:57:03	Finish CTQMC	
+16:57:05	Loop #17	mu=3.00	N=1.00	Etot=-0.5510	Ekin=-1.2097	Epot=0.6587
+16:57:05	Starting CTQMC
+16:57:58	Finish CTQMC	
+16:58:00	Loop #18	mu=3.00	N=1.00	Etot=-0.5511	Ekin=-1.2101	Epot=0.6590
+16:58:00	Starting CTQMC
+16:58:53	Finish CTQMC	
+16:58:56	Loop #19	mu=3.00	N=1.00	Etot=-0.5508	Ekin=-1.2101	Epot=0.6593
+16:58:56	Starting CTQMC
+16:59:48	Finish CTQMC	
+16:59:50	Loop #20	mu=3.00	N=1.00	Etot=-0.5513	Ekin=-1.2098	Epot=0.6585
+16:59:50	Starting CTQMC
+17:00:43	Finish CTQMC	
+17:00:45	Loop #21	mu=3.00	N=1.00	Etot=-0.5516	Ekin=-1.2090	Epot=0.6573
+17:00:45	Starting CTQMC
+17:01:38	Finish CTQMC	
+17:01:40	Loop #22	mu=3.00	N=1.00	Etot=-0.5520	Ekin=-1.2083	Epot=0.6563
+17:01:40	Starting CTQMC
+17:02:33	Finish CTQMC	
+17:02:35	Loop #23	mu=3.00	N=1.00	Etot=-0.5519	Ekin=-1.2086	Epot=0.6568
+17:02:35	Starting CTQMC
+17:03:28	Finish CTQMC	
+17:03:31	Loop #24	mu=3.00	N=1.00	Etot=-0.5524	Ekin=-1.2092	Epot=0.6568
+17:03:31	Starting CTQMC
+17:04:23	Finish CTQMC	
+17:04:26	Loop #25	mu=3.00	N=1.00	Etot=-0.5521	Ekin=-1.2086	Epot=0.6565
+17:04:26	Starting CTQMC
+17:05:18	Finish CTQMC	
+17:05:21	Loop #26	mu=3.00	N=1.00	Etot=-0.5516	Ekin=-1.2085	Epot=0.6569
+17:05:21	Starting CTQMC
+17:06:14	Finish CTQMC	
+17:06:16	Loop #27	mu=3.00	N=1.00	Etot=-0.5508	Ekin=-1.2088	Epot=0.6580
+17:06:16	Starting CTQMC
+17:07:08	Finish CTQMC	
+17:07:11	Loop #28	mu=3.00	N=1.00	Etot=-0.5506	Ekin=-1.2091	Epot=0.6585
+17:07:11	Starting CTQMC
+17:08:03	Finish CTQMC	
+17:08:06	Loop #29	mu=3.00	N=1.00	Etot=-0.5512	Ekin=-1.2086	Epot=0.6573
+17:08:06	Starting CTQMC
+17:08:58	Finish CTQMC	
+17:09:01	Loop #30	mu=3.00	N=1.00	Etot=-0.5505	Ekin=-1.2092	Epot=0.6587
+17:09:01	Starting CTQMC
+17:09:53	Finish CTQMC	
+17:09:56	Loop #31	mu=3.00	N=1.00	Etot=-0.5512	Ekin=-1.2099	Epot=0.6587
+17:09:56	Starting CTQMC
+17:10:48	Finish CTQMC	
+17:10:51	Loop #32	mu=3.00	N=1.00	Etot=-0.5516	Ekin=-1.2095	Epot=0.6579
+17:10:51	Starting CTQMC
+17:11:43	Finish CTQMC	
+17:11:46	Loop #33	mu=3.00	N=1.00	Etot=-0.5513	Ekin=-1.2097	Epot=0.6584
+17:11:46	Starting CTQMC
+17:12:39	Finish CTQMC	
+17:12:42	Loop #34	mu=3.00	N=1.00	Etot=-0.5506	Ekin=-1.2105	Epot=0.6599
+17:12:42	Starting CTQMC
+17:13:34	Finish CTQMC	
+17:13:37	Loop #35	mu=3.00	N=1.00	Etot=-0.5499	Ekin=-1.2106	Epot=0.6607
+17:13:37	Starting CTQMC
+17:14:29	Finish CTQMC	
+17:14:32	Loop #36	mu=3.00	N=1.00	Etot=-0.5501	Ekin=-1.2106	Epot=0.6606
+17:14:32	Starting CTQMC
+17:15:25	Finish CTQMC	
+17:15:27	Loop #37	mu=3.00	N=1.00	Etot=-0.5501	Ekin=-1.2102	Epot=0.6601
+17:15:27	Starting CTQMC
+17:16:20	Finish CTQMC	
+17:16:22	Loop #38	mu=3.00	N=1.00	Etot=-0.5507	Ekin=-1.2101	Epot=0.6594
+17:16:22	Starting CTQMC
+17:17:15	Finish CTQMC	
+17:17:17	Loop #39	mu=3.00	N=1.00	Etot=-0.5503	Ekin=-1.2105	Epot=0.6603
+17:17:17	Starting CTQMC
+17:18:09	Finish CTQMC	
+17:18:12	Loop #40	mu=3.00	N=1.00	Etot=-0.5506	Ekin=-1.2098	Epot=0.6592
+17:18:12	Starting CTQMC
+17:19:04	Finish CTQMC	

@@ -29,8 +29,8 @@ def Compute_Delta(niom, T, mu, Sig, iom, DOS, ommesh):
       f.write('%.8f\t%.8f\t%.8f\n'%(iom[i], Delta[i].real, Delta[i].imag))
   return Gloc
 
-def Create_PARAMS(params, U):
-  with open('PARAMS.%f'%U, 'w') as f:
+def Create_PARAMS(params):
+  with open('PARAMS', 'w') as f:
     for p in params:
       f.write(p + '\t' + str(params[p][0]) + '\t' + params[p][1] + '\n')
 
@@ -78,80 +78,28 @@ def Compute_Epot(niom, T, Sig, iom, Gloc, Nlatt):
   Epot += Sig1/(8.*T) + 0.5*SigInf*Nlatt
   return Epot
 
-def Read_Sig(niom, U):
-  Sig = zeros(niom, dtype=complex)
-  if os.path.exists('Sig.out'):
-    with open('Sig.out', 'r') as f:
-      lines = f.readlines()[1:]
-      for i,l in enumerate(lines):
-        Sig[i] = float(l.split()[1]) + 1j*float(l.split()[2])
-  else:
-    print('Sig.out not found. Using default U/2.')
-    Sig[:] = 0.5*U
-  return Sig
-
-def Calc_Loop(U, T, ommesh, DOS):
+if __name__=='__main__':
   params = {
     'Delta' : ['Delta.inp',    '# Input hybridizations'],
     'cix'   : ['impurity.cix', '# Input atomic state'],
-    'U'     : [    U,          '# Coulomb interaction'],
-    'mu'    : [0.5*U,          '# Chemical potential'],
-    'beta'  : [1./T,           '# Inverse tempurature'],
+    'U'     : [ 6.,            '# Coulomb interaction'],
+    'mu'    : [ 3.,            '# Chemical potential'],
+    'beta'  : [100.,           '# Inverse tempurature'],
     'M'     : [2e6,            '# Number of Monte Carlo steps'],
     'nom'   : [80,             '# Number of sampled points'],
-    'sampleGtau' : [1000,      '# Sampling step of Gtau'],
-    'warmup'     : [250000,    '# Number of warm-up steps']
+    'warmup': [250000,         '# Number of warm-up steps']
   }
-  Create_PARAMS(params, U)
 
-  niom    = 6000
-  Niter   = 40
-  mu      = 0.5*U
+  niom = 6000
+  Niter= 40
+  U    = params['U'][0]
+  T    = 1./params['beta'][0]
+  mu   = params['mu'][0]
+  Sig  = zeros(niom, dtype=complex)
   mix_Sig = 0.4
-  Sig     = Read_Sig(niom, U)
-  Eold    = 0.
 
   # Matsubara Frequencies
   iom = pi*T*(2*arange(niom)+1)
-
-  with open('OUTPUT.%f'%U, 'w') as out:
-    out.write(now()+'Time\tLoop#\tmu\tN\tEtot\tEkin\tEpot\n')
-    # Start DMFT loop
-    for it in range(Niter):
-      if it>0:
-        Sig_old = array(Sig) # Copy Sig
-        Sig = Read_Sig(niom, U)
-        Sig = mix_Sig*Sig + (1-mix_Sig)*Sig_old
-
-      Gloc  = Compute_Delta(niom, T, mu, Sig, iom, DOS, ommesh)
-      Nlatt = Compute_Nlatt(niom, T, mu, Sig, iom, DOS, ommesh)
-      Ekin  =  Compute_Ekin(niom, T, mu, Sig, iom, DOS, ommesh)
-      Epot  =  Compute_Epot(niom, T, Sig, iom, Gloc, Nlatt)
-      out.write(now()+'%d\t%.2f\t%.2f\t%.4f\t%.4f\t%.4f\n'\
-        %(it+1, mu, 2*Nlatt, 2*(Ekin+Epot), 2*Ekin, 2*Epot))
-      out.flush()
-
-      with open('para_com.dat', 'r') as f:
-        para_com = str(f.readline())[:-1]
-
-      cmd = para_com + ' ./ctqmc > ctqmc.log 2> ctqmc.err'
-      subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
-      cmd = 'cp Gf.out Gf.out.U%f.%d'%(U,it)
-      print os.popen(cmd).read()
-      cmd = 'cp Sig.out Sig.out.U%f.%d'%(U,it)
-      print os.popen(cmd).read()
-      cmd = 'cp Delta.inp Delta.inp.U%f.%d'%(U,it)
-      print os.popen(cmd).read()
-
-      if abs(Ekin+Epot-Eold) < 0.001:
-        break
-      else:
-        Eold = Ekin+Epot
-  return U, Ekin, Epot
-
-if __name__=='__main__':
-  T = 0.01
-
   # Load DOS
   DOSfile = loadtxt('2D_SL_DOS')
   # 1st column as energies
@@ -161,11 +109,48 @@ if __name__=='__main__':
   # Normalize
   DOS = DOS / integrate.simps(DOS, ommesh)
 
+  out = open('OUTPUT', 'w')
 
-  with open('UvsE.dat', 'w') as f:
-    f.write('U\tEkin\tEpot\tEtot\n')
+  # Start DMFT loop
+  for it in range(Niter):
+    Sig_old = array(Sig) # Copy Sig
+    if os.path.exists('Sig.out'):
+      with open('Sig.out', 'r') as f:
+        lines = f.readlines()[1:]
+        for i,l in enumerate(lines):
+          Sig[i] = float(l.split()[1]) + 1j*float(l.split()[2])
+    else:
+      print('Sig.out not found. Using default U/2.')
+      Sig[:] = 0.5*U
 
-  for x in [12.,11.,10.,9.,8.,9.,10.,11.,12.]:
-    U, Ekin, Epot = Calc_Loop(x, T, ommesh, DOS)
-    with open('UvsE.dat', 'a') as f:
-      f.write('%f\t%f\t%f\t%f\n'%(U, Ekin, Epot, Ekin+Epot))
+    if it>0:
+      Sig = mix_Sig*Sig + (1-mix_Sig)*Sig_old
+
+    Gloc  = Compute_Delta(niom, T, mu, Sig, iom, DOS, ommesh)
+    Nlatt = Compute_Nlatt(niom, T, mu, Sig, iom, DOS, ommesh)
+    Ekin  =  Compute_Ekin(niom, T, mu, Sig, iom, DOS, ommesh)
+    Epot  =  Compute_Epot(niom, T, Sig, iom, Gloc, Nlatt)
+    out.write(now()+'Loop #%d\tmu=%.2f\tN=%.2f\tEkin=%.4f\tEpot=%.4f\n'%(it+1, mu, 2*Nlatt, 2*Ekin, 2*Epot))
+    out.flush()
+
+    Create_PARAMS(params)
+
+    with open('para_com.dat', 'r') as f:
+      para_com = str(f.readline())[:-1]
+
+    out.write(now()+'Starting CTQMC\n')
+    out.flush()
+
+    cmd = para_com + ' ./ctqmc > ctqmc.log 2> ctqmc.err'
+    subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+    cmd = 'cp Gf.out Gf.out.' + str(it)
+    print os.popen(cmd).read()
+    cmd = 'cp Sig.out Sig.out.' + str(it)
+    print os.popen(cmd).read()
+    cmd = 'cp Delta.inp Delta.inp.' + str(it)
+    print os.popen(cmd).read()
+
+    out.write(now()+"Finish CTQMC\t"+"\n")
+    out.flush()
+
+  out.close()

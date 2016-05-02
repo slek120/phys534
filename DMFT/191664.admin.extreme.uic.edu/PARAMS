@@ -1,0 +1,8 @@
+mu	3.0	# Chemical potential
+nom	80	# Number of sampled points
+beta	100.0	# Inverse tempurature
+U	6.0	# Coulomb interaction
+warmup	250000	# Number of warm-up steps
+Delta	Delta.inp	# Input hybridizations
+cix	impurity.cix	# Input atomic state
+M	2000000.0	# Number of Monte Carlo steps

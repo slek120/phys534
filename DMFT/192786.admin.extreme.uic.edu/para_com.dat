@@ -1,0 +1,1 @@
+mpirun -machinefile /var/spool/torque/aux//192786.admin.extreme.uic.edu -np 20
